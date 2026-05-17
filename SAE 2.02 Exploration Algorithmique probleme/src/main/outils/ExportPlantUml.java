@@ -1,12 +1,12 @@
-package Main.outils;
+package main.outils;
 
-import graphe.ihm.Main.Sprint2.Entite;
-import graphe.ihm.Main.Sprint2.TypeEntite;
-import graphe.ihm.Main.Sprint2.IGraphe;
-import graphe.ihm.Main.Sprint2.IEntite;
-import graphe.ihm.Main.Sprint2.NatureRelation;
-import graphe.ihm.Main.Sprint2.RelationEntrante;
-import graphe.ihm.Main.Sprint2.RelationSortante;
+import main.impl.Entite;
+import main.impl.TypeEntite;
+import main.modele.IGraphe;
+import main.modele.IEntite;
+import main.modele.NatureRelation;
+import main.modele.RelationEntrante;
+import main.modele.RelationSortante;
 
 import java.util.ArrayList;
 import java.util.Comparator;

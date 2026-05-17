@@ -1,6 +1,6 @@
-package Main.Sprint1.Test;
+package main.sprint1.Test;
 
-import Main.Sprint1.MatriceGraphe;
+import main.sprint1.MatriceGraphe;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -18,6 +18,6 @@ public class TestMatrice{
 
         assertTrue(m.existeArete("AppliChenille", "Chenille"));
         assertEquals("Create", m.getEtiquette("AppliChenille", "Chenille"));
-        assertTrue(m.existeArete("AppliChenille", "AppliChenille"),"Le sommet a un doublon");
+        assertFalse(m.existeArete("AppliChenille", "AppliChenille"), "Le doublon ne doit pas créer d'arête");
     }
 }

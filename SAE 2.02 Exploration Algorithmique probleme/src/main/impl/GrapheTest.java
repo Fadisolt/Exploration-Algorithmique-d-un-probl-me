@@ -1,7 +1,7 @@
-package Main.impl;
+package main.impl;
 
-import Main.modele.IGraphe;
-import Main.modele.AbstractIGrapheTest;
+import main.modele.IGraphe;
+import main.modele.AbstractIGrapheTest;
 
 public class GrapheTest extends AbstractIGrapheTest {
 

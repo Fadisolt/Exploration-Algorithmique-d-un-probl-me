@@ -1,6 +1,6 @@
-package Main.impl;
+package main.impl;
 
-import Main.modele.IEntite;
+import main.modele.IEntite;
 
 import java.util.Objects;
 

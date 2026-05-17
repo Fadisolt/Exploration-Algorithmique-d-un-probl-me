@@ -1,8 +1,8 @@
-package Main.Sprint1.Test;
+package main.sprint1.Test;
 
-import Main.Sprint1.ListeGraphe;
+import main.sprint1.ListeGraphe;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.BeforeEach;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TestListe {
@@ -19,6 +19,6 @@ public class TestListe {
 
         assertTrue(liste.existeArete("AppliChenille", "Chenille"));
         assertEquals("Create", liste.getEtiquette("AppliChenille", "Chenille"));
-        assertTrue(liste.existeArete("AppliChenille", "AppliChenille"),"Le sommet a un doublon");
+        assertFalse(liste.existeArete("AppliChenille", "AppliChenille"), "Le doublon ne doit pas créer d'arête");
     }
 }

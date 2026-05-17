@@ -1,4 +1,4 @@
-package Main.modele;
+package main.modele;
 
 public enum NatureRelation {
     CONTIENT,

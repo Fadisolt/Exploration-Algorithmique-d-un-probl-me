@@ -1,10 +1,10 @@
-package Main.outils;
+package main.outils;
 
-import Main.impl.Entite;
-import Main.modele.IEntite;
-import Main.impl.TypeEntite;
-import Main.modele.IGraphe;
-import Main.modele.NatureRelation;
+import main.impl.Entite;
+import main.modele.IEntite;
+import main.impl.TypeEntite;
+import main.modele.IGraphe;
+import main.modele.NatureRelation;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -253,20 +253,17 @@ public final class ImporteurPlantUml {
     }
 
     private Entite resoudreNomReference(String nomLu) {
-        // 1. Nom canonique exact déjà connu
         Entite exacte = entitesParNomCanonique.get(nomLu);
         if (exacte != null) {
             return exacte;
         }
 
-        // 2. Nom local dans le contexte courant
         String candidatLocal = nomCanoniqueDansContexte(nomLu);
         Entite locale = entitesParNomCanonique.get(candidatLocal);
         if (locale != null) {
             return locale;
         }
 
-        // 3. Référence partiellement qualifiée : on la rattache au package racine courant
         String candidatRacine = nomCanoniqueDepuisRacine(nomLu);
         if (candidatRacine != null) {
             Entite e = entitesParNomCanonique.get(candidatRacine);
@@ -275,13 +272,11 @@ public final class ImporteurPlantUml {
             }
         }
 
-        // 4. Recherche par suffixe unique
         Entite parSuffixe = chercherParSuffixeUnique(nomLu);
         if (parSuffixe != null) {
             return parSuffixe;
         }
 
-        // 5. Création automatique d'une entité canonique
         String nomCanonique;
         if (nomLu.contains(".")) {
             nomCanonique = candidatRacine != null ? candidatRacine : nomLu;

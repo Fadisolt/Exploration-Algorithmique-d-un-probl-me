@@ -1,4 +1,4 @@
-package Main.Sprint1;
+package main.sprint1;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,13 +12,11 @@ public class ListeGraphe{
         this.Liste = new HashMap<>();
     }
 
-    @Override
     public void ajouterSommet(String nom) {
         if (!Liste.containsKey(nom))
             Liste.put(nom, new ArrayList<>());
     }
 
-    @Override
     public void ajouterArete(String depart, String etiquette, String arrive){
         ajouterSommet(depart);
         ajouterSommet(arrive);
@@ -38,7 +36,6 @@ public class ListeGraphe{
         }
     }
 
-    @Override
     public boolean existeArete(String depart, String arrive) {
         if(!Liste.containsKey(depart)) {
             return false;
@@ -51,7 +48,6 @@ public class ListeGraphe{
         return false;
     }
 
-    @Override
     public String getEtiquette(String depart, String arrive){
         if (!Liste.containsKey(depart)){
             return null;

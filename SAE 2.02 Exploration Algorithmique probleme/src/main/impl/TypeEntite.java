@@ -1,4 +1,4 @@
-package Main.impl;
+package main.impl;
 
 public enum TypeEntite {
     PACKAGE,

@@ -1,9 +1,9 @@
-package Main.ihm;
+package main.ihm;
 
-import Main.impl.Graphe;
-import graphe.ihm.Main..IGraphe;
-import graphe.ihm.Main.ExportPlantUml;
-import graphe.Main.outils.ImporteurPlantUml;
+import main.impl.Graphe;
+import main.modele.IGraphe;
+import main.outils.ExportPlantUml;
+import main.outils.ImporteurPlantUml;
 
 public final class Main {
     public static void main(String[] args) {

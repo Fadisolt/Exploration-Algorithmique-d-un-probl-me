@@ -1,8 +1,8 @@
-package Main.outils;
+package main.outils;
 
-import Main.modele.AbstractAlgorithmesGrapheTest;
-import Main.impl.Graphe;
-import Main.modele.IGraphe;
+import main.modele.AbstractAlgorithmesGrapheTest;
+import main.impl.Graphe;
+import main.modele.IGraphe;
 
 public class AlgorithmesGrapheTest extends AbstractAlgorithmesGrapheTest {
     @Override

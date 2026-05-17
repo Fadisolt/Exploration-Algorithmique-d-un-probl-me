@@ -1,4 +1,4 @@
-package Main.Sprint1;
+package main.sprint1;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,7 +1,7 @@
-package Main.modele;
+package main.modele;
 
-import Main.impl.Entite;
-import Main.impl.TypeEntite;
+import main.impl.Entite;
+import main.impl.TypeEntite;
 import org.junit.jupiter.api.Test;
 
 import java.util.Set;
@@ -39,9 +39,9 @@ public abstract class AbstractIGrapheTest {
         IGraphe g = creerGrapheVide();
         IEntite a1 = entite("A", TypeEntite.CLASS);
         assertTrue(g.ajouterEntite(a1));
-        IEntite a2 = entite("A", TypeEntite.INTERFACE); // Même nom, mais type différent
+        IEntite a2 = entite("A", TypeEntite.INTERFACE);
         assertFalse(g.ajouterEntite(a2));
-        IEntite a3 = entite("A", TypeEntite.CLASS);  // Même nom et meme type
+        IEntite a3 = entite("A", TypeEntite.CLASS);
         assertFalse(g.ajouterEntite(a3));
     }
 

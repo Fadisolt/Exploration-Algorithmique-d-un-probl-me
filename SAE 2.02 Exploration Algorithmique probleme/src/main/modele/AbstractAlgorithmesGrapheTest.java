@@ -1,9 +1,9 @@
-package Main.modele;
+package main.modele;
 
-import Main.impl.Entite;
-import Main.impl.TypeEntite;
-import Main.outils.AlgorithmesGraphe;
-import Main.outils.ImporteurPlantUml;
+import main.impl.Entite;
+import main.impl.TypeEntite;
+import main.outils.AlgorithmesGraphe;
+import main.outils.ImporteurPlantUml;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
