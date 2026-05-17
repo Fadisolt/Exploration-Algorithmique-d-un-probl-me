@@ -1,4 +1,8 @@
-package Main.Sprint2;
+package Main.outils;
+
+import Main.modele.AbstractAlgorithmesGrapheTest;
+import Main.impl.Graphe;
+import Main.modele.IGraphe;
 
 public class AlgorithmesGrapheTest extends AbstractAlgorithmesGrapheTest {
     @Override

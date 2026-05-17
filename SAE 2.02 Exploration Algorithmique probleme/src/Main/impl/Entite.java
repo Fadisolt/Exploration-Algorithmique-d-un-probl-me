@@ -1,6 +1,6 @@
-package Main.Sprint2;
+package Main.impl;
 
-import Main.Sprint2.IEntite;
+import Main.modele.IEntite;
 
 import java.util.Objects;
 

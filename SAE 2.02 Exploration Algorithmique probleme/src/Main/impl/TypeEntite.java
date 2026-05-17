@@ -1,4 +1,4 @@
-package Main.Sprint2;
+package Main.impl;
 
 public enum TypeEntite {
     PACKAGE,

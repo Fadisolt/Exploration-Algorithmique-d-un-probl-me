@@ -1,5 +1,7 @@
-package Main.Sprint2;
+package Main.modele;
 
+import Main.impl.Entite;
+import Main.impl.TypeEntite;
 import org.junit.jupiter.api.Test;
 
 import java.util.Set;

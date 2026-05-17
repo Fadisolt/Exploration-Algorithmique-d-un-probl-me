@@ -1,4 +1,9 @@
-package Main.Sprint2;
+package Main.outils;
+
+import Main.modele.IEntite;
+import Main.modele.IGraphe;
+import Main.modele.NatureRelation;
+import Main.modele.RelationEntrante;
 
 import java.util.HashSet;
 import java.util.Set;

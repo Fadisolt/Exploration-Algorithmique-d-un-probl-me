@@ -1,4 +1,10 @@
-package Main.Sprint2;
+package Main.outils;
+
+import Main.impl.Entite;
+import Main.modele.IEntite;
+import Main.impl.TypeEntite;
+import Main.modele.IGraphe;
+import Main.modele.NatureRelation;
 
 import java.io.IOException;
 import java.nio.file.Files;

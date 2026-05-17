@@ -1,5 +1,9 @@
-package Main.Sprint2;
+package Main.modele;
 
+import Main.impl.Entite;
+import Main.impl.TypeEntite;
+import Main.outils.AlgorithmesGraphe;
+import Main.outils.ImporteurPlantUml;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,7 +1,7 @@
-package Main.Sprint2;
+package Main.impl;
 
-import Main.Sprint2.IGraphe;
-import Main.Sprint2.AbstractIGrapheTest;
+import Main.modele.IGraphe;
+import Main.modele.AbstractIGrapheTest;
 
 public class GrapheTest extends AbstractIGrapheTest {
 
