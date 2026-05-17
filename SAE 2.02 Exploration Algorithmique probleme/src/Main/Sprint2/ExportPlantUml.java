@@ -1,4 +1,4 @@
-package graphe.ihm.Main.Sprint2;
+package Main.Sprint2;
 
 import graphe.ihm.Main.Sprint2.Entite;
 import graphe.ihm.Main.Sprint2.TypeEntite;
