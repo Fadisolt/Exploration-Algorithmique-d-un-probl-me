@@ -1,4 +1,4 @@
-package Main.Sprint2;
+package graphe.ihm.Main.Sprint2;
 
 import java.io.IOException;
 import java.nio.file.Files;
