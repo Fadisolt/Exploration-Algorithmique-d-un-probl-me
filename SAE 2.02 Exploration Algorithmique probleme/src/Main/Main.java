@@ -1,4 +1,4 @@
-package graphe.ihm.Main;
+package Main;
 
 import graphe.ihm.Main.Sprint2.Graphe;
 import graphe.ihm.Main.Sprint2.IGraphe;
